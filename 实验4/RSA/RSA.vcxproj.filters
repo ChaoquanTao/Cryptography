@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\BasicThreadPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ctools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\def_config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\FacVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\FFT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\fileio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2E.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2EX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2EXFactoring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2X.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2XFactoring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2XVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\HAVE_AVX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\HAVE_BUILTIN_CLZL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\HAVE_FMA.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\HAVE_LL_TYPE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\HAVE_PCLMUL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\HNF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\Lazy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\LazyTable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\LLL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pEX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pEXFactoring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pXFactoring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mach_desc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_GF2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_GF2E.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_lzz_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_lzz_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_poly_lzz_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_poly_ZZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_poly_ZZ_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_RR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_ZZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_ZZ_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_ZZ_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\MatPrime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\new.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_GF2EX_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_GF2X_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_lzz_pEX_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_lzz_pX_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_ZZ_pEX_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_ZZ_pX_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_ZZX_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\quad_float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\RR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\SmartPtr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\sp_arith.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\tools.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_double.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_GF2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_GF2E.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_GF2XVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_lzz_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_lzz_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_quad_float.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_RR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ulong.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_GF2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_GF2E.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_long.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_lzz_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_lzz_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_RR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ulong.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ZZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ZZ_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ZZ_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_xdouble.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZ_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZ_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\WordVector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\xdouble.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_limbs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pEX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pEXFactoring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pXFactoring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZVec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZX.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZXFactoring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RSA.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="NTL.lib">
+      <Filter>头文件</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

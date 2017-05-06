@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B11212C5-4313-48EC-A637-23733913FDAD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>RSA</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>F:\NTL\WinNTL-10_3_0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NTL\BasicThreadPool.h" />
+    <ClInclude Include="NTL\config.h" />
+    <ClInclude Include="NTL\ctools.h" />
+    <ClInclude Include="NTL\def_config.h" />
+    <ClInclude Include="NTL\FacVec.h" />
+    <ClInclude Include="NTL\FFT.h" />
+    <ClInclude Include="NTL\fileio.h" />
+    <ClInclude Include="NTL\GF2.h" />
+    <ClInclude Include="NTL\GF2E.h" />
+    <ClInclude Include="NTL\GF2EX.h" />
+    <ClInclude Include="NTL\GF2EXFactoring.h" />
+    <ClInclude Include="NTL\GF2X.h" />
+    <ClInclude Include="NTL\GF2XFactoring.h" />
+    <ClInclude Include="NTL\GF2XVec.h" />
+    <ClInclude Include="NTL\HAVE_AVX.h" />
+    <ClInclude Include="NTL\HAVE_BUILTIN_CLZL.h" />
+    <ClInclude Include="NTL\HAVE_FMA.h" />
+    <ClInclude Include="NTL\HAVE_LL_TYPE.h" />
+    <ClInclude Include="NTL\HAVE_PCLMUL.h" />
+    <ClInclude Include="NTL\HNF.h" />
+    <ClInclude Include="NTL\Lazy.h" />
+    <ClInclude Include="NTL\LazyTable.h" />
+    <ClInclude Include="NTL\lip.h" />
+    <ClInclude Include="NTL\LLL.h" />
+    <ClInclude Include="NTL\lzz_p.h" />
+    <ClInclude Include="NTL\lzz_pE.h" />
+    <ClInclude Include="NTL\lzz_pEX.h" />
+    <ClInclude Include="NTL\lzz_pEXFactoring.h" />
+    <ClInclude Include="NTL\lzz_pX.h" />
+    <ClInclude Include="NTL\lzz_pXFactoring.h" />
+    <ClInclude Include="NTL\mach_desc.h" />
+    <ClInclude Include="NTL\MatPrime.h" />
+    <ClInclude Include="NTL\matrix.h" />
+    <ClInclude Include="NTL\mat_GF2.h" />
+    <ClInclude Include="NTL\mat_GF2E.h" />
+    <ClInclude Include="NTL\mat_lzz_p.h" />
+    <ClInclude Include="NTL\mat_lzz_pE.h" />
+    <ClInclude Include="NTL\mat_poly_lzz_p.h" />
+    <ClInclude Include="NTL\mat_poly_ZZ.h" />
+    <ClInclude Include="NTL\mat_poly_ZZ_p.h" />
+    <ClInclude Include="NTL\mat_RR.h" />
+    <ClInclude Include="NTL\mat_ZZ.h" />
+    <ClInclude Include="NTL\mat_ZZ_p.h" />
+    <ClInclude Include="NTL\mat_ZZ_pE.h" />
+    <ClInclude Include="NTL\new.h" />
+    <ClInclude Include="NTL\pair.h" />
+    <ClInclude Include="NTL\pair_GF2EX_long.h" />
+    <ClInclude Include="NTL\pair_GF2X_long.h" />
+    <ClInclude Include="NTL\pair_lzz_pEX_long.h" />
+    <ClInclude Include="NTL\pair_lzz_pX_long.h" />
+    <ClInclude Include="NTL\pair_ZZX_long.h" />
+    <ClInclude Include="NTL\pair_ZZ_pEX_long.h" />
+    <ClInclude Include="NTL\pair_ZZ_pX_long.h" />
+    <ClInclude Include="NTL\quad_float.h" />
+    <ClInclude Include="NTL\RR.h" />
+    <ClInclude Include="NTL\SmartPtr.h" />
+    <ClInclude Include="NTL\sp_arith.h" />
+    <ClInclude Include="NTL\thread.h" />
+    <ClInclude Include="NTL\tools.h" />
+    <ClInclude Include="NTL\vector.h" />
+    <ClInclude Include="NTL\vec_double.h" />
+    <ClInclude Include="NTL\vec_GF2.h" />
+    <ClInclude Include="NTL\vec_GF2E.h" />
+    <ClInclude Include="NTL\vec_GF2XVec.h" />
+    <ClInclude Include="NTL\vec_long.h" />
+    <ClInclude Include="NTL\vec_lzz_p.h" />
+    <ClInclude Include="NTL\vec_lzz_pE.h" />
+    <ClInclude Include="NTL\vec_quad_float.h" />
+    <ClInclude Include="NTL\vec_RR.h" />
+    <ClInclude Include="NTL\vec_ulong.h" />
+    <ClInclude Include="NTL\vec_vec_GF2.h" />
+    <ClInclude Include="NTL\vec_vec_GF2E.h" />
+    <ClInclude Include="NTL\vec_vec_long.h" />
+    <ClInclude Include="NTL\vec_vec_lzz_p.h" />
+    <ClInclude Include="NTL\vec_vec_lzz_pE.h" />
+    <ClInclude Include="NTL\vec_vec_RR.h" />
+    <ClInclude Include="NTL\vec_vec_ulong.h" />
+    <ClInclude Include="NTL\vec_vec_ZZ.h" />
+    <ClInclude Include="NTL\vec_vec_ZZ_p.h" />
+    <ClInclude Include="NTL\vec_vec_ZZ_pE.h" />
+    <ClInclude Include="NTL\vec_xdouble.h" />
+    <ClInclude Include="NTL\vec_ZZ.h" />
+    <ClInclude Include="NTL\vec_ZZVec.h" />
+    <ClInclude Include="NTL\vec_ZZ_p.h" />
+    <ClInclude Include="NTL\vec_ZZ_pE.h" />
+    <ClInclude Include="NTL\version.h" />
+    <ClInclude Include="NTL\WordVector.h" />
+    <ClInclude Include="NTL\xdouble.h" />
+    <ClInclude Include="NTL\ZZ.h" />
+    <ClInclude Include="NTL\ZZVec.h" />
+    <ClInclude Include="NTL\ZZX.h" />
+    <ClInclude Include="NTL\ZZXFactoring.h" />
+    <ClInclude Include="NTL\ZZ_limbs.h" />
+    <ClInclude Include="NTL\ZZ_p.h" />
+    <ClInclude Include="NTL\ZZ_pE.h" />
+    <ClInclude Include="NTL\ZZ_pEX.h" />
+    <ClInclude Include="NTL\ZZ_pEXFactoring.h" />
+    <ClInclude Include="NTL\ZZ_pX.h" />
+    <ClInclude Include="NTL\ZZ_pXFactoring.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RSA.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="NTL.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
